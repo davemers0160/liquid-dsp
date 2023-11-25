@@ -18,6 +18,15 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 
+#
+# MSYS2 commands to compile
+#
+# pacman -Syu
+# pacman -S devel-base mingw-w64-x86_64-toolchain
+# make -f makefile.mingw64 -j clean
+# make -f makefile.mingw64 -j
+# 
+
 # 
 # Makefile for liquid-dsp libraries
 #
