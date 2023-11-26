@@ -22,7 +22,8 @@
 # MSYS2 commands to compile
 #
 # pacman -Syu
-# pacman -S devel-base mingw-w64-x86_64-toolchain
+# pacman -S base-devel mingw-w64-x86_64-gcc mingw-w64-x86_64-make mingw-w64-x86_64-gcc-libs
+# cp scripts/config.h .
 # make -f makefile.mingw64 -j clean
 # make -f makefile.mingw64 -j
 # 

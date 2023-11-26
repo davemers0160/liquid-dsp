@@ -8,6 +8,7 @@
 
 /* Support AVX (Advanced Vector Extensions) instructions */
 /* #undef HAVE_AVX */
+#define HAVE_AVX 1
 
 /* Define to 1 if you have the `cargf' function. */
 #define HAVE_CARGF 1
